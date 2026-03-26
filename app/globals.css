@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Brand Title */
+.opelion-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* Tagline */
+.opelion-tagline {
+  font-family: Georgia, serif;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
